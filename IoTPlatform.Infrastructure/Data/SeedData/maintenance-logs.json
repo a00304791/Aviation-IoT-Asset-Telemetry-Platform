@@ -1,0 +1,23 @@
+[
+  {
+    "DeviceSerialNumber": "ENG-10001",
+    "MaintenanceType": "Inspection",
+    "Description": "Routine inspection of left engine temperature sensor.",
+    "PerformedAt": "2026-10-15T09:00:00",
+    "TechnicianName": "John Smith"
+  },
+  {
+    "DeviceSerialNumber": "ENG-10002",
+    "MaintenanceType": "Calibration",
+    "Description": "Vibration sensor calibration and performance check.",
+    "PerformedAt": "2026-10-20T13:30:00",
+    "TechnicianName": "Sarah Johnson"
+  },
+  {
+    "DeviceSerialNumber": "HYD-10003",
+    "MaintenanceType": "Replacement",
+    "Description": "Hydraulic pressure sensor inspected and replaced.",
+    "PerformedAt": "2026-10-25T11:15:00",
+    "TechnicianName": "Michael Brown"
+  }
+]

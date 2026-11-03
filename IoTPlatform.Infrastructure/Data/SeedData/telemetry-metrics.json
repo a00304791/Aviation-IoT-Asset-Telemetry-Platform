@@ -1,0 +1,31 @@
+
+[
+  {
+    "DeviceSerialNumber": "ENG-10001",
+    "MetricType": "Temperature",
+    "Value": 85.5,
+    "Unit": "Celsius",
+    "RecordedAt": "2026-11-02T10:00:00"
+  },
+  {
+    "DeviceSerialNumber": "ENG-10001",
+    "MetricType": "Temperature",
+    "Value": 92.3,
+    "Unit": "Celsius",
+    "RecordedAt": "2026-11-02T10:05:00"
+  },
+  {
+    "DeviceSerialNumber": "ENG-10002",
+    "MetricType": "Vibration",
+    "Value": 4.2,
+    "Unit": "mm/s",
+    "RecordedAt": "2026-11-02T10:00:00"
+  },
+  {
+    "DeviceSerialNumber": "HYD-10003",
+    "MetricType": "OilPressure",
+    "Value": 65.0,
+    "Unit": "PSI",
+    "RecordedAt": "2026-11-02T10:00:00"
+  }
+]

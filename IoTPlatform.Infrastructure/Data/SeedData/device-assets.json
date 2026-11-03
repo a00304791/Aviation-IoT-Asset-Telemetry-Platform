@@ -1,0 +1,26 @@
+[
+  {
+    "SerialNumber": "ENG-10001",
+    "Name": "Left Engine Temperature Sensor",
+    "ComponentType": "Engine Sensor",
+    "Status": "Active",
+    "MinimumOperatingTemperature": 10,
+    "MaximumOperatingTemperature": 150
+  },
+  {
+    "SerialNumber": "ENG-10002",
+    "Name": "Right Engine Vibration Sensor",
+    "ComponentType": "Engine Sensor",
+    "Status": "Active",
+    "MinimumOperatingTemperature": 5,
+    "MaximumOperatingTemperature": 120
+  },
+  {
+    "SerialNumber": "HYD-10003",
+    "Name": "Hydraulic Pressure Sensor",
+    "ComponentType": "Hydraulic Sensor",
+    "Status": "Active",
+    "MinimumOperatingTemperature": 1,
+    "MaximumOperatingTemperature": 100
+  }
+]

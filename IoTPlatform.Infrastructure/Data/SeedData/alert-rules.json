@@ -1,0 +1,26 @@
+[
+  {
+    "DeviceSerialNumber": "ENG-10001",
+    "Name": "Engine High Temperature Alert",
+    "MetricType": "Temperature",
+    "MinimumThreshold": 10,
+    "MaximumThreshold": 150,
+    "IsEnabled": true
+  },
+  {
+    "DeviceSerialNumber": "ENG-10002",
+    "Name": "Engine Excessive Vibration Alert",
+    "MetricType": "Vibration",
+    "MinimumThreshold": 1,
+    "MaximumThreshold": 5,
+    "IsEnabled": true
+  },
+  {
+    "DeviceSerialNumber": "HYD-10003",
+    "Name": "Hydraulic Oil Pressure Alert",
+    "MetricType": "OilPressure",
+    "MinimumThreshold": 20,
+    "MaximumThreshold": 80,
+    "IsEnabled": true
+  }
+]
