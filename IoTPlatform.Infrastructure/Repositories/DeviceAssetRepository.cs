@@ -22,8 +22,8 @@ public class DeviceAssetRepository : IDeviceAssetRepository
 
     public async Task<DeviceAsset?> GetBySerialNumberAsync(string serialNumber)
     {
-        return await _context.DeviceAssets
-            .FirstOrDefaultAsync(d => d.SerialNumber.Value == serialNumber);
+        var assets = await _context.DeviceAssets.ToListAsync();
+        return assets.FirstOrDefault(d => d.SerialNumber.Value == serialNumber);
     }
 
     public async Task<IReadOnlyList<DeviceAsset>> GetAllAsync()
